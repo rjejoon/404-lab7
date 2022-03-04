@@ -1,0 +1,17 @@
+0. https://github.com/rjejoon/404-lab7
+1. Flask is a micro framework that only offers basic web app features. Django is a larger framework for a web development. 
+   Django provides dynamic HTML pages while Flask does not.
+2. REST stands for representational state transfer. When you say something is RESTful, 
+   it means the client and the server transfers the state of the data in various formats (e.g. JSON) via HTTP requests.
+3. CRUD stands for create, read, update and delete. 
+   C: PUT, R: GET, U: POST, D: DELETE
+4. 1xx: informational responses
+   2xx: successful responses
+   3xx: redirection responses
+   4xx: client error responses
+   5xx: server error responses
+5. An XSS attack is an attack where an attacker injects malicious scripts into the code of a
+   trusted websites. A site can be vulnerable to an XSS attack if it unsafely echoes back the received data in an HTTP request.
+6. CORS stands for cross-origin resource sharing. We need to implement CORS protection if we want to ensure
+   only the trusted domains can access our site's resources.
+
